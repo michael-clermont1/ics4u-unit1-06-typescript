@@ -51,7 +51,7 @@ function medianFunction(arrayOfIntegers: number[]): number {
 }
 //
 // print process.argv
-process.argv.forEach(function(val, index, array) {})
+process.argv.forEach(function (val, index, array) {})
 
 console.log(process.argv[2])
 
