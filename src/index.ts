@@ -16,7 +16,7 @@ import { readFileSync } from 'fs'
  * @param {Array} arrayOfIntegers  - integer array
  * @returns {Array} Return value
  */
-function meanFunction(arrayOfIntegers: number[]): number {
+function meanFunction (arrayOfIntegers: number[]): number {
   let total = 0
   let mean = 0
   let addNumber = 0
@@ -37,7 +37,7 @@ function meanFunction(arrayOfIntegers: number[]): number {
  * @param {Array} arrayOfIntegers  - integer array
  * @returns {Array} Return value
  */
-function medianFunction(arrayOfIntegers: number[]): number {
+function medianFunction (arrayOfIntegers: number[]): number {
   let returnValue = 0
   const middle = arrayOfIntegers.length / 2
   let addNumber = 0
@@ -51,7 +51,7 @@ function medianFunction(arrayOfIntegers: number[]): number {
 }
 //
 // print process.argv
-process.argv.forEach(function(val, index, array) {})
+process.argv.forEach(function (val, index, array) {})
 
 console.log(process.argv[2])
 
